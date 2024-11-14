@@ -10,25 +10,31 @@
       <div class="spiderman-space">
         <!-- Universe for Earth 616 with Gwen Stacy -->
         <spidyverse earthName="EARTH_616" @show-meme="toggleMeme">
-            <template v-slot>
+            <template #peter-img>
               <img src='../assets/spider-verse/peter1-tom-holland.jpg' class='img-fluid'>
-            💖 Gwen Stacy is here to support Peter-1!
+            </template>
+            <template #mj>
+              💖 MJ is here to support Peter-1!
             </template>
         </spidyverse>
         
         <!-- Universe for Earth 96283 with Mary Jane -->
         <spidyverse earthName="EARTH_96283" @show-meme="toggleMeme">
-            <template v-slot>
+            <template #peter-img>
               <img src='../assets/spider-verse/peter-2-tobey-maguire.jpg' class='img-fluid'>
+            </template>
+            <template #mj>
             💖 Mary Jane Watson is rooting for Peter-2!
             </template>
         </spidyverse>
         
         <!-- Universe for Earth 120703 with no extra character -->
         <spidyverse earthName="EARTH_120703" @show-meme="toggleMeme">
-            <template v-slot>
-            <img src='../assets/spider-verse/peter3-andrew-garfield.jpg' class='img-fluid'>
-            🕷️ Peter-3 is flying solo!
+            <template #peter-img>
+              <img src='../assets/spider-verse/peter3-andrew-garfield.jpg' class='img-fluid'>
+            </template>
+            <template #mj>
+              💖 Gwen Stacy is here to support Peter-1!
             </template>
         </spidyverse>
       </div>

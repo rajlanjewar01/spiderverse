@@ -6,7 +6,8 @@
       
       <!-- Slot for additional content (e.g., Gwen, Mary Jane) -->
       <div class="slot-content">
-        <slot></slot>
+        <slot name="peter-img"></slot>
+        <slot name="mj"></slot>
       </div>
     </div>
   </template>
